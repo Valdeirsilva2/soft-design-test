@@ -1,0 +1,53 @@
+@import '../../assets/variables.scss';
+
+.login {
+    background-color: #30333a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        display: flex;
+        align-items: center;        
+        flex-direction: column;
+        height: 350px;
+        width: 90%;
+
+        .logo {
+            display: flex;
+            margin: 24px 0;
+            img {                
+                height: 100px;
+                width: 100px;
+                object-fit: contain;
+            }
+        }
+        .email,
+        .password {
+            width: 100%;
+            display: flex;
+            border-radius: 10px;
+            padding: 2px 8px;
+            margin: 8px 0;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            box-sizing: border-box;
+
+
+            .icon {
+                margin: 0px 8px;
+
+            }
+
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .login {
+        background-color: red;
+    
+    }
+}

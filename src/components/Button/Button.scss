@@ -1,0 +1,18 @@
+@import '../../assets/variables.scss';
+
+.btn-login {
+    background: $red01;
+    color: $white;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-full {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}

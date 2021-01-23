@@ -1,0 +1,11 @@
+@import '../../assets/variables.scss';
+
+input {
+    height: 40px;
+    width: 100%;
+    background-color: $white;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
